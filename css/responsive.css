@@ -1,6 +1,15 @@
 /* Soluzione qui */
-@media screen and (min-width: 576px) {
 
+/* bonus */
+@media screen and (min-width: 576px) {
+    .presentation img{
+        float: left;
+        margin-right: 10px;
+    }
+
+    .social-networks button{
+        flex-grow: 1;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -68,7 +77,7 @@
         display: flex;
     }
 
-    .recipe-video{
+    .recipe-video {
         flex-grow: 1;
     }
 
