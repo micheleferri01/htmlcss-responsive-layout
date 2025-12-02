@@ -48,5 +48,26 @@
 }
 
 @media screen and (min-width: 992px) {
-    
+    /* main */
+    .recipe-name{
+        font-size: 40px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    li{
+        width:100%;
+    }
+
+    .recipe-card{
+        display: flex;
+    }
+
+    .recipe-video{
+        flex-grow: 1;
+    }
 }
