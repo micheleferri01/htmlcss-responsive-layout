@@ -4,13 +4,38 @@
 }
 
 @media screen and (min-width: 768px) {
-    
+
     /* header */
     #topbar{
         justify-content: flex-start;
     }
 
-    
+    /* main */
+    main{
+        padding: 40px;
+    }
+
+    .recipe-origin{
+        display: inline;
+    }
+
+    .recipe-name{
+        font-size: 32px;
+    }
+
+    ul{
+        display:flex;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+    }
+
+    li{
+        width: calc(100% / 3 - 0.8rem * 2 / 3);
+    }
+
+    .social-networks button{
+        flex-grow:1;
+    }
 }
 
 @media screen and (min-width: 992px) {
