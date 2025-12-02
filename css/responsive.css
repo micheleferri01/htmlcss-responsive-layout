@@ -23,13 +23,13 @@
         font-size: 32px;
     }
 
-    ul{
+    .quick-notes ul{
         display:flex;
         gap: 0.8rem;
         flex-wrap: wrap;
     }
 
-    li{
+    .quick-notes li{
         width: calc(100% / 3 - 0.8rem * 2 / 3);
     }
 
@@ -49,17 +49,18 @@
 
 @media screen and (min-width: 992px) {
     /* main */
+    /* recipe card */
     .recipe-name{
         font-size: 40px;
     }
 
-    ul{
+    .quick-notes ul{
         display: flex;
         flex-direction: column;
         gap: 0;
     }
 
-    li{
+    .quick-notes li{
         width:100%;
     }
 
@@ -71,7 +72,21 @@
         flex-grow: 1;
     }
 
+    /* social networks buttons */
+
     .social-networks .label{
         display: inline;
+    }
+
+    /* footer */
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    address{
+        text-align: left;
     }
 }
