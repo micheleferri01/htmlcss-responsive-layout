@@ -79,6 +79,15 @@
 
     .recipe-video {
         flex-grow: 1;
+        height: auto;
+    }
+
+    .recipe-video iframe{
+        aspect-ratio: 16 / 9;
+    }
+
+    .recipe-info{
+        padding-bottom: 0;
     }
 
     /* social networks buttons */
