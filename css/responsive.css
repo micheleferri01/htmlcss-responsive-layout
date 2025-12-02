@@ -70,4 +70,8 @@
     .recipe-video{
         flex-grow: 1;
     }
+
+    .social-networks .label{
+        display: inline;
+    }
 }
